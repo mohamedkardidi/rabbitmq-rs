@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "amqplib": "^0.10.5",
+    "dotenv": "^16.4.7"
+  },
+  "scripts": {
+    "start-sender": "node sender/index.js",
+    "start-receiver": "node receiver/server.js"
+  }
+}
